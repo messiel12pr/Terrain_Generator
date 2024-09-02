@@ -1,4 +1,4 @@
-# Maze Generation and Pathfinding Simulator
+# Procedural Terrain Generator
 
 #### Requirements:
 
