@@ -13,7 +13,10 @@
 
 #### Use:
 
-- Run generator.py
+- Build the Docker image: `docker build -t terrain-generator .`
+- For linux:
+  - `xhost +local:docker`
+  - `docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix terrain-generator`
 - Hit space to generate a new seed
 - Use the sliders to fine tune the terrain
   - `octaves`: The number of levels of detail
